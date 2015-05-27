@@ -14,7 +14,7 @@ else
 fi
 local git_branch='$(git_prompt_info)%{$reset_color%}'
 
-PROMPT="╔%{$fg_bold[white]%}[%{$reset_color%}%{$fg_bold[cyan]%}%n %{$reset_color%}%{$fg_no_bold[red]%}at%{$reset_color%} %{$fg_bold[cyan]%}%m%{$fg_bold[white]%}]%{$reset_color%} %{$fg_bold[cyan]%}[%{$reset_color% %{$fg_no_bold[green]%}%3~%{$fg_bold[cyan]%}]%{$reset_color%} ${git_branch}
+PROMPT="╔%{$fg_bold[white]%}[%{$reset_color%}%{$fg_bold[cyan]%}%n %{$reset_color%}%{$fg_bold[gray]%}at%{$reset_color%} %{$fg_bold[cyan]%}%m%{$fg_bold[white]%}]%{$reset_color%} %{$fg_bold[cyan]%}[%{$reset_color% %{$fg_no_bold[green]%}%3~%{$fg_bold[cyan]%}]%{$reset_color%} ${git_branch}
 ╚%{$fg_bold[white]% ⊡%{$reset_color%} "
 RPS1="${return_code}"
 
