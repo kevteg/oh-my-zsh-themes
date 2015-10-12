@@ -1,21 +1,10 @@
 # Mi primer tema de zsh :D
 local return_code="%(?..%{$fg[red]%}% ✖%{$reset_color%})"
 
-local user_host='%{$terminfo[bold]$fg[green]%}%n@%m%{$reset_color%}'
-local current_dir='%{$terminfo[bold]$fg[blue]%} %~%{$reset_color%}'
-local rvm_ruby=''
-
-if which rvm-prompt &> /dev/null; then
-  rvm_ruby='%{$fg[red]%}‹$(rvm-prompt i v g)›%{$reset_color%}'
-else
-  if which rbenv &> /dev/null; then
-    rvm_ruby='%{$fg[red]%}‹$(rbenv version | sed -e "s/ (set.*$//")›%{$reset_color%}'
-  fi
-fi
 local git_branch='$(git_prompt_info)%{$reset_color%}'
 
 PROMPT="╔%{$fg_bold[white]%}[%{$reset_color%}%{$fg_bold[cyan]%}%n %{$reset_color%}%{$fg_bold[gray]%}at%{$reset_color%} %{$fg_bold[cyan]%}%m%{$fg_bold[white]%}]%{$reset_color%} %{$fg_bold[cyan]%}[%{$reset_color% %{$fg_no_bold[green]%}%3~%{$fg_bold[cyan]%}]%{$reset_color%} ${git_branch}
-╚%{$fg_bold[white]% ⊡%{$reset_color%} "
+╚%{$fg_bold[white]% "$(echo -n "\xF0\x9F\x9A\x80")" %{$reset_color%} "
 RPS1="${return_code}"
 
 # tema git
