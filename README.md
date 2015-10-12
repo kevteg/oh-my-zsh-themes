@@ -1,6 +1,10 @@
 Here you will find my themes for the ZSH shell.
 My themes:
 
+In order to use emojis you will have to install this font:
+
+sudo apt-get install ttf-ancient-fonts
+
 keeeeevin:
 
 ![alt tag](https://raw.githubusercontent.com/kevteg/temas-zsh/master/images/keeevin.png)
