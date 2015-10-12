@@ -1,9 +1,11 @@
 Here you will find my themes for the ZSH shell.
+
+
+**In order to use emojis you will have to install this font:**
+
+_sudo apt-get install ttf-ancient-fonts_
+
 My themes:
-
-In order to use emojis you will have to install this font:
-
-sudo apt-get install ttf-ancient-fonts
 
 keeeeevin:
 
@@ -16,5 +18,3 @@ krocket:
 ## Installation
 
 Place any theme file (.zsh-theme) in your $ZSH_CUSTOM/themes and choose the theme name in your .zshrc
-
-
