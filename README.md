@@ -1,1 +1,3 @@
-Mis temas de la popular shell para so tipo unix zsh
+Here you will find my themes for the ZSH shell.
+
+
