@@ -3,7 +3,17 @@ Here you will find my themes for the ZSH shell.
 
 **In order to use emojis you will have to install this font:**
 
-_sudo apt-get install ttf-ancient-fonts_
+
+Ubuntu and derivates
+
+```sh
+# apt-get install ttf-ancient-fonts
+```
+On arch and derivates you can find it with yaourt
+
+```sh
+$ yaourt ttf-ancient-fonts
+```
 
 My themes:
 
