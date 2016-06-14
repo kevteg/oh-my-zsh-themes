@@ -14,7 +14,6 @@ On arch and derivates you can find it with yaourt
 ```sh
 $ yaourt ttf-ancient-fonts
 ```
-
 My themes:
 
 keeeeevin:
