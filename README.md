@@ -12,7 +12,7 @@ Ubuntu and derivates
 On arch and derivates you can find it with yaourt
 
 ```sh
-$ yaourt ttf-ancient-fonts
+$ yaourt ttf-noto
 ```
 My themes:
 
