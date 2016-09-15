@@ -27,7 +27,7 @@ local sep='%{$COLOR_FONDO_SEPARADOR$COLOR_TEXTO_SEPARADOR$ICONO_SEPARADOR%}'
 local git_branch='%{$COLOR_FONDO_GITHUB$(git_prompt_info)$reset_color%}'
 local contexto='%{$COLOR_FONDO_CONTEXTO$COLOR_TEXTO_CONTEXTO%n$COLOR_AT_CONTEXTO〉$COLOR_FONDO_CONTEXTO$COLOR_TEXTO_CONTEXTO%m$reset_color%}'
 local at='%{@%}'
-local direccion='%{$COLOR_FONDO_DIRECCION$COLOR_TEXTO_DIRECCION %~ $reset_color%}'
+local direccion='%{$COLOR_FONDO_DIRECCION$COLOR_TEXTO_DIRECCION 3%~ $reset_color%}'
 local final="%(?,%{$fg[green]%}%{$ICONO%} %{$reset_color%},%{$fg[red]%}%{$ICONO%} %{$reset_color%})"
 
 inicio(){
