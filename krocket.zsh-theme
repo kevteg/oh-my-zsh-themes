@@ -32,8 +32,8 @@ local final="%(?,%{$fg[green]%}%{$ICONO%} %{$reset_color%},%{$fg[red]%}%{$ICONO%
 #RPROMPT_SUFFIX='%{'$'\e[1B''%}' # one line down
 inicio(){
 
-PROMPT="${sep}${contexto}${sep}${direccion}${sep}${git_branch}${sep}
-%{$COLOR_FONDO_ICONO%}${final}${COLOR_PUNTA}❭ "
+PROMPT="${sep}${contexto}${sep}${direccion}${sep}
+${git_branch}${sep}%{$COLOR_FONDO_ICONO%}${final}${COLOR_PUNTA}❭ "
 #Si quiere eliminar el color blanco de todo el texto siguiente a la línea agrega $reset_color% al final de la linea de arriba
 
 }   
